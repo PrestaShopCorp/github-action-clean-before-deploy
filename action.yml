@@ -1,0 +1,15 @@
+name: Clean dependencies
+author: Poulinho
+description: 'An easy GA to clean your dependencies before generate artifact'
+branding:
+  icon: 'check'
+  color: 'blue'
+inputs:
+  path:
+    description: 'Add path to your vuejs project'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
