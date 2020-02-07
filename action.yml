@@ -1,5 +1,5 @@
 name: Clean dependencies
-author: Poulinho
+author: PrestaShop
 description: 'An easy GA to clean your dependencies before generate artifact'
 branding:
   icon: 'check'

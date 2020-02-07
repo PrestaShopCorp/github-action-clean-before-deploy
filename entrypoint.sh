@@ -6,7 +6,7 @@ then
   rm -rf $1
 fi
 
-echo "Prepare to delete dependencies"
+echo "Cleaning default files"
 
 rm -f .php_cs.*
 rm -f composer.*
