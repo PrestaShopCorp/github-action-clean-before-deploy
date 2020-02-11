@@ -1,5 +1,7 @@
 name: Clean dependencies
 author: PrestaShop
+tags:
+  - 'v*.*.'
 description: 'An easy GA to clean your dependencies before generate artifact'
 branding:
   icon: 'check'
