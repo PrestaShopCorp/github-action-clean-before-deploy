@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 inputs:
   path:
-    description: 'Add path to your vuejs project'
+    description: 'Additional files & folders to remove'
     required: false
 runs:
   using: 'docker'
