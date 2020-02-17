@@ -5,7 +5,7 @@ branding:
   icon: 'check'
   color: 'blue'
 inputs:
-  path:
+  paths:
     description: 'Additional files & folders to remove'
     required: false
 runs:
