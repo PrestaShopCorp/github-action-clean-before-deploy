@@ -1,0 +1,15 @@
+name: Clean dependencies
+author: PrestaShop
+description: 'An easy GA to clean your dependencies before generate artifact'
+branding:
+  icon: 'check'
+  color: 'blue'
+inputs:
+  paths:
+    description: 'Additional files & folders to remove'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
