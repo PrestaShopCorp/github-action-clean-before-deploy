@@ -21,4 +21,4 @@ rm -rf Makefile
 rm -rf .github
 rm -f cloudbuild.yaml
 rm -f .travis.yml
-
+rm -rf node_modules
