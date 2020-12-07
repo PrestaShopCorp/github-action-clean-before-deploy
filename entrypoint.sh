@@ -21,4 +21,6 @@ rm -rf Makefile
 rm -rf .github
 rm -f cloudbuild.yaml
 rm -f .travis.yml
-
+rm -f package-lock.json
+rm -f package.json
+rm -rf eslint.*
