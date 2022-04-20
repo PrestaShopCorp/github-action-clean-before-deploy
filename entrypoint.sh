@@ -23,6 +23,6 @@ rm -rf .github
 rm -f cloudbuild.yaml
 rm -f .travis.yml
 rm -f crowdin.yml
-rm -rf docs
+rm -rf docs/adr/
 rm -rf docker
 
