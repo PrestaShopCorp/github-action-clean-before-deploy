@@ -11,8 +11,6 @@ then
   rm -rf $2
 fi
 
-
-
 echo "Cleaning default files"
 
 rm -f .php_cs.*
