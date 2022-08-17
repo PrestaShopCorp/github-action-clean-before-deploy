@@ -3,8 +3,15 @@ set -e
 
 if [ ! -z "$1" ]
 then
-  rm -rf $1
+  cd $1
 fi
+
+if [ ! -z "$2" ]
+then
+  rm -rf $2
+fi
+
+
 
 echo "Cleaning default files"
 

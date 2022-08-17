@@ -1,15 +1,19 @@
 name: Clean dependencies
 author: PrestaShop
-description: 'An easy GA to clean your dependencies before generate artifact'
+description: "An easy GA to clean your dependencies before generate artifact"
 branding:
-  icon: 'check'
-  color: 'blue'
+  icon: "check"
+  color: "blue"
 inputs:
   paths:
-    description: 'Additional files & folders to remove'
+    description: "Additional files & folders to remove"
+    required: false
+  working_dir:
+    description: "Working directory for cleaning"
     required: false
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
   args:
+    - ${{ inputs.working_dir }}
     - ${{ inputs.paths }}
