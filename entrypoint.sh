@@ -31,3 +31,4 @@ rm -f crowdin.yml
 rm -rf docs/adr/
 rm -rf docker
 
+ls -la
