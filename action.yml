@@ -8,12 +8,12 @@ inputs:
   paths:
     description: "Additional files & folders to remove"
     required: false
-  working_dir:
+  working-directory:
     description: "Working directory for cleaning"
     required: false
 runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - ${{ inputs.working_dir }}
+    - ${{ inputs.working-directory }}
     - ${{ inputs.paths }}
