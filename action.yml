@@ -11,6 +11,7 @@ inputs:
   working-directory:
     description: "Working directory for cleaning"
     required: false
+    default: "./"
 runs:
   using: "docker"
   image: "Dockerfile"

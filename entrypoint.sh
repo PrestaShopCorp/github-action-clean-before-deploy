@@ -13,6 +13,7 @@ fi
 
 echo "Cleaning default files"
 
+rm -f .php-cs-fixer.*
 rm -f .php_cs.*
 rm -f composer.*
 rm -f .gitignore
@@ -30,5 +31,3 @@ rm -f .travis.yml
 rm -f crowdin.yml
 rm -rf docs/adr/
 rm -rf docker
-
-ls -la
