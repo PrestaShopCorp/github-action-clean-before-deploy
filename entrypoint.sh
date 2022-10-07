@@ -1,10 +1,7 @@
 #!/bin/bash
 set -e
 
-if [ ! -z "$1" ]
-then
-  cd $1
-fi
+cd $1
 
 if [ ! -z "$2" ]
 then
